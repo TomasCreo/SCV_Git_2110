@@ -83,3 +83,4 @@ git config--global user.email "name@mail.com"
 
 `git diff`
 
+# ***Закончили инструкцию по GIT***
