@@ -19,3 +19,9 @@ git config--global user.email "name@mail.com"
 Делаем это команлой 
 
 `git init`
+
+### 5. *Запрашиваем статус*
+
+Для запроса статуса ввести команду:
+
+`git status`
