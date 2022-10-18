@@ -148,13 +148,6 @@ git branch -D <имя ветки>
 ```
 ### 6. ***Конфликт при слиянии веток***
 
-При работе в двух ветках одновременно может
-возникнуть ситуация, когда в одной и другой
-ветке мы по-разному изменили блок текста.
-Если затем мы попробуем слить эти ветки, Git
-сообщит о конфликте и предложит выбрать,
-какие же изменения записать.
-
 When working in two branches at the same
 time, a situation may arise when
 we have changed a block of text in different ways in one and the other branch.
