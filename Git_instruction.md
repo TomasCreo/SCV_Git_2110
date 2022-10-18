@@ -155,6 +155,13 @@ git branch -D <имя ветки>
 сообщит о конфликте и предложит выбрать,
 какие же изменения записать.
 
+When working in two branches at the same
+time, a situation may arise when
+we have changed a block of text in different ways in one and the other branch.
+If we then try to merge these branches, Git
+will report the conflict and offer to choose
+which changes to write.
+
 
 ### 7. ***Визуализация веток***
 
