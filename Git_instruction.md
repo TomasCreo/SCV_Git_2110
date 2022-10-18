@@ -97,6 +97,11 @@ git config--global user.email "name@mail.com"
 ``` 
 ![имя файла](название файла)
 ```
+![какая-то картинка](1.png)
+![еще одна картинка](2.jpg)
+![имя картинки](3.png)
+![имя файла](4.jpg)
+![имя файла](5.jpg)
 
 ## 13. ***Работа с ветками***
 
@@ -146,6 +151,20 @@ git branch -D <имя ветки>
 ```
 Когда робатешь в разных ветках бывают конфликты!!!
 ```
+При работе в двух ветках одновременно может
+возникнуть ситуация, когда в одной и другой
+ветке мы по-разному изменили блок текста.
+Если затем мы попробуем слить эти ветки, Git
+сообщит о конфликте и предложит выбрать,
+какие же изменения записать.
+
+When working in two branches at the same
+time, a situation may arise when
+we have changed a block of text in different ways in one and the other branch.
+If we then try to merge these branches, Git
+will report the conflict and offer to choose
+which changes to write.
+
 
 ### 7. ***Визуализация веток***
 
